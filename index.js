@@ -54,15 +54,15 @@ function App(props) {
     return html`
     <div class="app">
         <ion-app>
-            <ion-header translucent={true}>
-                <ion-toolbar mode="ios">
+            <ion-header mode="ios" translucent={true}>
+                <ion-toolbar>
                     <ion-title>Jaime González CV</ion-title>
                 </ion-toolbar>
             </ion-header>
     
             <ion-content fullscreen="true">
-                <ion-header collapse="condense">
-                    <ion-toolbar mode="ios">
+                <ion-header mode="ios" collapse="condense">
+                    <ion-toolbar>
                         <ion-title size="large" class="centerText">Jaime González CV</ion-title>
                     </ion-toolbar>
                 </ion-header>
