@@ -49,7 +49,8 @@ ion-button {
 
 html,
 body {
-    overflow-y: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 h2 {
