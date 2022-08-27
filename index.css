@@ -8,7 +8,7 @@ ion-content {
 }
 
 ion-card-content {
-    overflow: scroll;
+    overflow: hidden;
     white-space: pre-wrap;
 }
 
@@ -49,8 +49,7 @@ ion-button {
 
 html,
 body {
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 h2 {
