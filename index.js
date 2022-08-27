@@ -107,9 +107,8 @@ function App(props) {
                         </ul>
                         <h2>Awards</h2>
                         <ul>
-                            <li>7 years: Java</li>
-                            <li>5 years: C++</li>
-                            <li>3 years: Python, TypeScript, JavaScript</li>
+                            <li>Academic Excellence at ITESM (2016-Present)</li>
+                            <li>1st Place in the HackPrepas-ITESM (2015)</li>
                         </ul>
                         <h2>Technologies</h2>
                         <ul>
