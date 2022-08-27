@@ -54,13 +54,18 @@ function App(props) {
     return html`
     <div class="app">
         <ion-app>
-            <ion-header>
+            <ion-header translucent={true}>
                 <ion-toolbar mode="ios">
                     <ion-title>Jaime González CV</ion-title>
                 </ion-toolbar>
             </ion-header>
     
             <ion-content fullscreen="true">
+                <ion-header collapse="condense">
+                    <ion-toolbar mode="ios">
+                        <ion-title size="large" class="centerText">Jaime González CV</ion-title>
+                    </ion-toolbar>
+                </ion-header>
                 <ion-card mode="ios">
                     <img src="assets/profile.webp" />
                     <ion-card-header>
