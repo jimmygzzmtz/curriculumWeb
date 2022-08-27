@@ -107,7 +107,7 @@ function App(props) {
                         </ul>
                         <h2>Awards</h2>
                         <ul>
-                            <li>Academic Excellence at ITESM (2016-Present)</li>
+                            <li>Academic Excellence at ITESM (2016-2020)</li>
                             <li>1st Place in the HackPrepas-ITESM (2015)</li>
                         </ul>
                         <h2>Technologies</h2>
