@@ -53,6 +53,7 @@ h2 {
 }
 
 :root {
+    --ion-toolbar-background: white;
     --ion-background-color: #e5e5e5;
 	--ion-color-primary: #c0392b;
 	--ion-color-primary-rgb: 192,57,43;
@@ -110,6 +111,11 @@ h2 {
 	--ion-color-light-shade: #d7d8da;
 	--ion-color-light-tint: #f5f6f9;
 
+}
+
+.md ion-card {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 @media (prefers-color-scheme: dark) {

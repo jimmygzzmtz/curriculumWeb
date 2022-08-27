@@ -54,19 +54,19 @@ function App(props) {
     return html`
     <div class="app">
         <ion-app>
-            <ion-header mode="ios" translucent={true}>
+            <ion-header translucent={true}>
                 <ion-toolbar>
                     <ion-title>Jaime González CV</ion-title>
                 </ion-toolbar>
             </ion-header>
     
             <ion-content fullscreen="true">
-                <ion-header mode="ios" collapse="condense">
+                <ion-header collapse="condense">
                     <ion-toolbar>
                         <ion-title size="large" class="centerText">Jaime González CV</ion-title>
                     </ion-toolbar>
                 </ion-header>
-                <ion-card mode="ios">
+                <ion-card>
                     <img src="assets/profile.webp" />
                     <ion-card-header>
                         <ion-card-subtitle>Software Developer</ion-card-subtitle>
@@ -84,7 +84,7 @@ function App(props) {
                     </ion-card-content>
                 </ion-card>
     
-                <ion-card mode="ios">
+                <ion-card>
                     <ion-card-header>
                         <ion-card-title>Education</ion-card-title>
                     </ion-card-header>
@@ -99,7 +99,7 @@ function App(props) {
                     </ion-card-content>
                 </ion-card>
     
-                <ion-card mode="ios">
+                <ion-card>
                     <ion-card-header>
                         <ion-card-title>Skills</ion-card-title>
                     </ion-card-header>
@@ -122,7 +122,7 @@ function App(props) {
                     </ion-card-content>
                 </ion-card>
     
-                <ion-card mode="ios">
+                <ion-card>
                     <ion-card-header>
                         <ion-card-title>Work Experience</ion-card-title>
                     </ion-card-header>
@@ -138,7 +138,7 @@ function App(props) {
                     </ion-card-content>
                 </ion-card>
     
-                <ion-card mode="ios">
+                <ion-card>
                     <div style="width: 100%; background-color: white;">
                         <img src="assets/nuxio-logo.webp" class="centerImage" style="padding-top: 10px; padding-bottom: 10px;" />
                     </div>
@@ -159,12 +159,12 @@ function App(props) {
                 </ion-card>
     
                 <div class="centerButton">
-                    <ion-button mode="ios" class="center" onClick=${() =>
+                    <ion-button class="center" onClick=${() =>
             setShowingProjects(!showingProjects)}>${showingProjects ? 'Hide' : 'Show'} Projects</ion-button>
                 </div>
     
                 ${showingProjects && projects.map((project) => html`
-                <ion-card mode="ios">
+                <ion-card>
                     <img src=${project.screenshot} style="width: 100%" />
                     <img src=${project.icon} height="50" width="50" class="projectIcon" />
                     <ion-card-header>
