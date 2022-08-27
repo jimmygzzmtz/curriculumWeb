@@ -14,6 +14,8 @@ ion-card {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
 }
 
 ion-button {
@@ -111,11 +113,6 @@ h2 {
 	--ion-color-light-shade: #d7d8da;
 	--ion-color-light-tint: #f5f6f9;
 
-}
-
-.md ion-card {
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 @media (prefers-color-scheme: dark) {
