@@ -1,39 +1,57 @@
-body{
-    background-color: #c0392b;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+ion-toolbar {
+    --background: #c0392b;
+    --color: white;
 }
 
-#top{
-	text-align: center;
+ion-content {
+    --background: #e5e5e5;
 }
 
-.container {
-    background-color: white;
-    min-width: 85%;
-    box-shadow: 0 20px 30px rgba(0,0,0,0.23), 0 9px 9px rgba(0,0,0,0.25);
-    width: 60%;
-    padding: 30px;
-    margin: auto auto auto auto;
-    border-radius: 15px;
+ion-card-content {
+    overflow: scroll;
+    white-space: pre-wrap;
 }
 
-.follows {
-	text-decoration: underline;
-}
-
-hr {
-	border: 0;
-    border-color: #c0392b;
-}
-
-h2 {
-	color: #c0392b
-}
-
-.center {
+ion-card {
+    width: 90%;
+    max-width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  }
+}
+
+ion-button {
+    --background: #c0392b;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width:300px;
+}
+
+.centerButton{
+    display:flex;
+    justify-content:center;
+}
+
+.projectIcon {
+    float:right; 
+    margin-top: 15px; 
+    margin-right: 15px
+}
+
+html,
+body {
+    overflow-y: scroll;
+}
+
+h2 {
+    font-weight: bold !important;
+}
