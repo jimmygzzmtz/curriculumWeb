@@ -134,7 +134,9 @@ function App(props) {
                 </ion-card>
     
                 <ion-card mode="ios">
-                    <img src="assets/nuxio-logo.webp" class="centerImage" style="margin-top: 10px" />
+                    <div style="width: 100%; background-color: white;">
+                        <img src="assets/nuxio-logo.webp" class="centerImage" style="padding-top: 10px; padding-bottom: 10px;" />
+                    </div>
                     <ion-card-header>
                         <ion-card-subtitle>Current Role</ion-card-subtitle>
                         <ion-card-title>Co-founder at Nuxio Software</ion-card-title>
