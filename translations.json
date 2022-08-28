@@ -1,0 +1,330 @@
+{
+  "en": {
+    "projectsList": [
+      {
+        "name": "ProgriScript",
+        "screenshot": "assets/progriscript_screenshot.webp",
+        "icon": "assets/progriscript_icon.webp",
+        "timeframe": "August - December 2020",
+        "description": "A progressive web app that compiles, runs, and teaches the user about the ProgriScript language.",
+        "details": [
+          "Collaborated with Raul Hernandez to develop the compiler and virtual machine in JavaScript, using Jison.",
+          "Designed and developed the user-interface in Ionic."
+        ],
+        "links": [
+          {
+            "name": "Code",
+            "url": "https://github.com/jimmygzzmtz/ProgriScript"
+          },
+          {
+            "name": "Web App",
+            "url": "https://jimmygzzmtz.github.io/ProgriScript"
+          }
+        ]
+      },
+      {
+        "name": "GeminAI",
+        "screenshot": "assets/geminai_screenshot.webp",
+        "icon": "assets/geminai_icon.webp",
+        "timeframe": "April - August 2020",
+        "description": "A hybrid chatbot based on AIML and a Seq2Seq model.",
+        "details": [
+          "Designed and developed the back-end using Python in Google Cloud Run.",
+          "Integrated GeminAI with tools from DuckDuckGo, DialogFlow, TensorFlow, AIML, and others.",
+          "This application was developed for the MSc Dissertation, along with a thesis."
+        ],
+        "links": null
+      },
+      {
+        "name": "Vibe",
+        "screenshot": "assets/vibe_screenshot.webp",
+        "icon": "assets/vibe_icon.webp",
+        "timeframe": "January - March 2020",
+        "description": "An application that allows users to detect their current emotion by analyzing their face.",
+        "details": [
+          "Designed the front-end of the application in Ionic and Angular.",
+          "Collaborated with colleagues to integrate it with a back-end model hosted in Google Cloud Run.",
+          "This application was developed for Centro Puzzle, a rehabilitation center in Italy."
+        ],
+        "links": null
+      },
+      {
+        "name": "prodActiv",
+        "screenshot": "assets/prodactiv_screenshot.webp",
+        "icon": "assets/prodactiv_icon.webp",
+        "timeframe": "January - May 2019",
+        "description": "An iOS graphical task manager in Swift 4.",
+        "details": [
+          "Collaborated with colleagues to develop the application for an iOS class.",
+          "Built using card-based graphical interface, along with extensive use of RegEx and notifications."
+        ],
+        "links": [
+          { "name": "Code", "url": "https://github.com/jimmygzzmtz/prodActiv" }
+        ]
+      },
+      {
+        "name": "POIAPP & POI-API",
+        "screenshot": "assets/poiapp_screenshot.webp",
+        "icon": "assets/poiapp_icon.webp",
+        "timeframe": "January - May 2019",
+        "description": "A crowd-sourced Points of Interest back-end and Progressive Web App.",
+        "details": [
+          "Collaborated with Ariel Mendez to develop the front-end in Ionic and back-end in MongoDB.",
+          "Designed and developed the user-interface and database."
+        ],
+        "links": [
+          {
+            "name": "Front-End Code",
+            "url": "https://github.com/jimmygzzmtz/POIAPP"
+          },
+          {
+            "name": "Back-End Code",
+            "url": "https://github.com/jimmygzzmtz/POI-API"
+          }
+        ]
+      }
+    ],
+    "info": { "subtitle": "Software Developer", "email": "E-mail" },
+    "education": {
+      "title": "Education",
+      "masters": "MSc Artificial Intelligence at University of Essex",
+      "college": "B.S. Computer Science and Technology (BCT) at ITESM-Campus Monterrey",
+      "gpa": "Cumulative GPA: 96.3"
+    },
+    "skills": {
+      "title": "Skills",
+      "programmingLanguages": {
+        "title": "Programming Languages",
+        "list": [
+          "3 years: Python, TypeScript, JavaScript",
+          "Experience with Java, C++, Swift, C#"
+        ]
+      },
+      "awards": {
+        "title": "Awards",
+        "list": [
+          "Academic Excellence at ITESM (2016-2020)",
+          "1st Place in the HackPrepas-ITESM (2015)"
+        ]
+      },
+      "technologies": {
+        "title": "Technologies",
+        "list": "HTML, CSS, JQuery, Express, SQL, MongoDB (NoSQL), Git, Google Cloud, Heroku, Android SDK, iOS SDK, Ionic, Angular, React, Puppeteer, Unix/Bash, TensorFlow, Preact, Unity, Cypress"
+      }
+    },
+    "work": {
+      "title": "Work Experience",
+      "experiences": [
+        {
+          "timeframe": "February 2021 - November 2021",
+          "role": "Full Stack Engineer at Intelimotor"
+        },
+        {
+          "timeframe": "November 2021 - May 2022",
+          "role": "Senior Developer at Onis Solutions"
+        },
+        {
+          "timeframe": "June 2022 - Present",
+          "role": "Co-founder at Nuxio Software"
+        }
+      ]
+    },
+    "currentRole": {
+      "title": "Co-founder at Nuxio Software",
+      "subtitle": "Current Role",
+      "info": [
+        {
+          "title": "Nuxio Software",
+          "description": "Your allies in software development & modernization."
+        },
+        {
+          "title": "Our services",
+          "description": "Develop an application from the ground up or modernize your current application with the latest web industry standards."
+        }
+      ],
+      "website": {
+        "title": "More Information",
+        "label": "Visit our website"
+      }
+    },
+    "projects": {
+      "subtitle": "Project",
+      "timeframe": "Timeframe",
+      "description": "Description",
+      "details": "Details",
+      "links": "Links"
+    },
+    "button": {
+      "hide": "Hide",
+      "show": "Show",
+      "projects": "Projects"
+    }
+  },
+  "es": {
+    "projectsList": [
+      {
+        "name": "ProgriScript",
+        "screenshot": "assets/progriscript_screenshot.webp",
+        "icon": "assets/progriscript_icon.webp",
+        "timeframe": "Agosto - Diciembre 2020",
+        "description": "Una aplicación web progresiva que compila, ejecuta y enseña al usuario sobre el lenguaje ProgriScript.",
+        "details": [
+          "Colaboré con Raúl Hernández para desarrollar el compilador y la máquina virtual en JavaScript, usando Jison.",
+          "Diseñé y desarrollé la interfaz de usuario en Ionic."
+        ],
+        "links": [
+          {
+            "name": "Código",
+            "url": "https://github.com/jimmygzzmtz/ProgriScript"
+          },
+          {
+            "name": "Web App",
+            "url": "https://jimmygzzmtz.github.io/ProgriScript"
+          }
+        ]
+      },
+      {
+        "name": "GeminAI",
+        "screenshot": "assets/geminai_screenshot.webp",
+        "icon": "assets/geminai_icon.webp",
+        "timeframe": "Abril - Agosto 2020",
+        "description": "Un chatbot híbrido basado en AIML y un modelo Seq2Seq.",
+        "details": [
+          "Diseñé y desarrollé el Back-End usando Python en Google Cloud Run.",
+          "Integré GeminAI con herramientas de DuckDuckGo, DialogFlow, TensorFlow, AIML y otros.",
+          "Esta aplicación fue desarrollada para la disertación de maestría, junto con una tesis."
+        ],
+        "links": null
+      },
+      {
+        "name": "Vibe",
+        "screenshot": "assets/vibe_screenshot.webp",
+        "icon": "assets/vibe_icon.webp",
+        "timeframe": "Enero - Marzo 2020",
+        "description": "Una aplicación que permite a los usuarios detectar su emoción actual mediante el análisis de su rostro.",
+        "details": [
+          "Diseñé el Front-End de la aplicación en Ionic y Angular.",
+          "Colaboré con colegas para integrarlo con un modelo de Back-End alojado en Google Cloud Run.",
+          "Esta aplicación fue desarrollada para Centro Puzzle, un centro de rehabilitación en Italia."
+        ],
+        "links": null
+      },
+      {
+        "name": "prodActiv",
+        "screenshot": "assets/prodactiv_screenshot.webp",
+        "icon": "assets/prodactiv_icon.webp",
+        "timeframe": "Enero - Mayo 2019",
+        "description": "Un administrador de tareas gráfico de iOS en Swift 4.",
+        "details": [
+          "Colaboré con colegas para desarrollar la aplicación para una clase de iOS.",
+          "Creado con una interfaz gráfica basada en tarjetas, junto con un uso extensivo de RegEx y notificaciones."
+        ],
+        "links": [
+          {
+            "name": "Código",
+            "url": "https://github.com/jimmygzzmtz/prodActiv"
+          }
+        ]
+      },
+      {
+        "name": "POIAPP & POI-API",
+        "screenshot": "assets/poiapp_screenshot.webp",
+        "icon": "assets/poiapp_icon.webp",
+        "timeframe": "Enero - Mayo 2019",
+        "description": "Una aplicación web progresiva y back-end de puntos de interés de fuentes múltiples.",
+        "details": [
+          "Colaboré con Ariel Méndez para desarrollar el Front-End en Ionic y el Back-End en MongoDB.",
+          "Diseñé y desarrollé la interfaz de usuario y la base de datos."
+        ],
+        "links": [
+          {
+            "name": "Código de Front-End",
+            "url": "https://github.com/jimmygzzmtz/POIAPP"
+          },
+          {
+            "name": "Código de Back-End",
+            "url": "https://github.com/jimmygzzmtz/POI-API"
+          }
+        ]
+      }
+    ],
+    "info": {
+      "subtitle": "Desarrollador de software",
+      "email": "Correo Electrónico"
+    },
+    "education": {
+      "title": "Educación",
+      "masters": "Maestría en Inteligencia Artificial en la Universidad de Essex",
+      "college": "Ingeniería en Tecnologías Computacionales (BCT) en ITESM-Campus Monterrey",
+      "gpa": "Promedio acumulado: 96.3"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "programmingLanguages": {
+        "title": "Lenguajes de programación",
+        "list": [
+          "3 años: Python, TypeScript, JavaScript",
+          "Experiencia con Java, C++, Swift, C#"
+        ]
+      },
+      "awards": {
+        "title": "Premios",
+        "list": [
+          "Excelencia Académica en ITESM (2016-2020)",
+          "1er Lugar en el HackPrepas-ITESM (2015)"
+        ]
+      },
+      "technologies": {
+        "title": "Tecnologías",
+        "list": "HTML, CSS, JQuery, Express, SQL, MongoDB (NoSQL), Git, Google Cloud, Heroku, Android SDK, iOS SDK, Ionic, Angular, React, Puppeteer, Unix/Bash, TensorFlow, Preact, Unity, Cypress"
+      }
+    },
+    "work": {
+      "title": "Experiencia laboral",
+      "experiences": [
+        {
+          "timeframe": "Febrero 2021 - Noviembre 2021",
+          "role": "Full Stack Engineer en Intelimotor"
+        },
+        {
+          "timeframe": "Noviembre 2021 - Mayo 2022",
+          "role": "Senior Developer en Onis Solutions"
+        },
+        {
+          "timeframe": "Junio 2022 - Presente",
+          "role": "Co-fundador de Nuxio Software"
+        }
+      ]
+    },
+    "currentRole": {
+      "title": "Co-fundador de Nuxio Software",
+      "subtitle": "Rol actual",
+      "info": [
+        {
+          "title": "Nuxio Software",
+          "description": "Tus aliados en desarrollo y modernización de software."
+        },
+        {
+          "title": "Nuestros servicios",
+          "description": "Desarrolle una aplicación desde cero o modernice su aplicación actual con los últimos estándares de la industria web."
+        }
+      ],
+      "website": {
+        "title": "Más información",
+        "label": "Visite nuestro sitio web"
+      }
+    },
+    "projects": {
+      "subtitle": "Proyecto",
+      "timeframe": "Periodo de tiempo",
+      "description": "Descripción",
+      "details": "Detalles",
+      "links": "Enlaces"
+    },
+    "button": {
+      "hide": "Esconder",
+      "show": "Mostrar",
+      "projects": "Proyectos"
+    }
+  }
+}
