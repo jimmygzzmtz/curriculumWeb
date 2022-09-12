@@ -2,18 +2,38 @@ import {
     html,
     render,
     useState,
+    useEffect,
 } from "https://unpkg.com/htm/preact/standalone.module.js";
-import translations from "./translations.json" assert { type: "json" };
 
 function App(props) {
     const [showingProjects, setShowingProjects] = useState(false);
+    const [translations, setTranslations] = useState();
+
+    useEffect(() => {
+        async function getTranslations() {
+            const translationsFile = await fetch("./translations.json");
+            const translationsJSON = await translationsFile.json();
+            setTranslations(translationsJSON);
+        }
+        getTranslations();
+     }, [])
 
     const userLocale = navigator.languages && navigator.languages.length
         ? navigator.languages[0]
         : navigator.language;
     const langInUse = userLocale.slice(0, 2);
 
-    const usedTranslation = translations[["en", "es"].includes(langInUse) ? langInUse : "en"];
+    const dummyTranslation = {
+        projectsList: [], 
+        info: {}, 
+        education: {}, 
+        skills: {programmingLanguages: {list: []}, awards: {list: []}, technologies: {list: []}}, 
+        work: {experiences: []}, 
+        currentRole: {info: [], website: {}}, 
+        projects: {}, 
+        button: {}
+    };
+    const usedTranslation = translations ? translations[["en", "es"].includes(langInUse) ? langInUse : "en"] : dummyTranslation;
     const projects = usedTranslation.projectsList;
 
     return html`
