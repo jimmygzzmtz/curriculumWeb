@@ -145,7 +145,7 @@ function App(props) {
                                         `
                                 )}
                                         <h2>${usedTranslation.currentRole.website.title}</h2>
-                                        <a href="https://nuxio.mx/"
+                                        <a href="https://nuxiosolutions.com/"
                                             target="_blank">${usedTranslation.currentRole.website.label}</a>
                                     </ion-card-content>
                                 </ion-card>
