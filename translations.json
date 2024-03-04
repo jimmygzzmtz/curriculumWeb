@@ -157,7 +157,7 @@
     "button": {
       "hide": "Hide",
       "show": "Show",
-      "projects": "Projects"
+      "projects": "Solo Projects"
     }
   },
   "es": {
@@ -324,7 +324,7 @@
     "button": {
       "hide": "Esconder",
       "show": "Mostrar",
-      "projects": "Proyectos"
+      "projects": "Proyectos Individuales"
     }
   }
 }
