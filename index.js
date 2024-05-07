@@ -196,6 +196,7 @@ function App(props) {
                     </ion-grid>
         
                     <div class="centerButton">
+                    <ion-button mode="ios" class="center" onClick=${() => window.open("assets/cv_jaime_gonzalez.pdf", '_blank')}>${usedTranslation.button.download}</ion-button>
                         <ion-button mode="ios" class="center" onClick=${()=> setShowingProjects(!showingProjects)}
                             >${(showingProjects
                         ? usedTranslation.button.hide
